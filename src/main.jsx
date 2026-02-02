@@ -6,9 +6,10 @@ import {
 
   RouterProvider,
 } from "react-router";
-import router from './routes/Router.jsx';
+
 import AuthProvider from './context/AuthProvider.jsx';
 import { Toaster } from 'react-hot-toast';
+import router from './routes/router.jsx';
 
 
 
